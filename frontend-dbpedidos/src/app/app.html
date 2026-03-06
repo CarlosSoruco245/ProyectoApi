@@ -1,0 +1,94 @@
+<!-- NAVBAR -->
+<nav class="navbar" *ngIf="authService.isAuthenticated()">
+  <div class="navbar-container">
+    <div class="navbar-logo">
+      <a routerLink="/" role="button" tabindex="0">App de Pedidos</a>
+    </div>
+
+    <ul class="navbar-links" role="menubar">
+      <li role="none">
+        <a [routerLink]="'/trabajadores'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Trabajadores
+        </a>
+      </li>
+      <li role="none">
+        <a [routerLink]="'/clientes'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Clientes
+        </a>
+      </li>
+      <li role="none">
+        <a [routerLink]="'/proveedores'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Proveedores
+        </a>
+      </li>
+      <li role="none">
+        <a [routerLink]="'/articulos'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Artículos
+        </a>
+      </li>
+      <li role="none">
+        <a [routerLink]="'/categorias'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Categorías
+        </a>
+      </li>
+      <li role="none">
+        <a [routerLink]="'/presentaciones'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Presentaciones
+        </a>
+      </li>
+      <li role="none">
+        <a [routerLink]="'/ingresos'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Ingresos
+        </a>
+      </li>
+      <li role="none">
+        <a [routerLink]="'/ventas'" 
+           routerLinkActive="active" 
+           role="menuitem" 
+           tabindex="0">
+          Ventas
+        </a>
+      </li>
+    </ul>
+
+    <button class="logout-button" 
+            (click)="logout()" 
+            type="button"
+            aria-label="Cerrar sesión">
+      Cerrar sesión
+    </button>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="main-content">
+  <router-outlet />
+</main>
+
+<!-- FOOTER -->
+<footer *ngIf="authService.isAuthenticated()" class="footer">
+  <div class="footer-container">
+    <p>&copy; {{ currentYear }} App de Pedidos. Todos los derechos reservados.</p>
+  </div>
+</footer>

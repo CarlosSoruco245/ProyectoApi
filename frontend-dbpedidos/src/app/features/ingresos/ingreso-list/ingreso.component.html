@@ -1,0 +1,202 @@
+<div class="container mt-4">
+
+  <!-- Filtro y cantidad -->
+  <div class="toolbar mb-3 d-flex justify-content-between">
+    <input type="text" placeholder="Buscar..." [(ngModel)]="busqueda" class="form-control w-50 me-2" />
+    <select [(ngModel)]="cantidadPorPagina" class="form-select w-auto">
+      <option [ngValue]="5">5</option>
+      <option [ngValue]="10">10</option>
+      <option [ngValue]="20">20</option>
+    </select>
+  </div>
+
+  <!-- Tabla de ingresos -->
+  <div class="table-responsive">
+    <table class="table table-bordered text-center align-middle">
+      <thead class="table-light">
+        <tr>
+          <th (click)="ordenarPor('serie')">Serie</th>
+          <th (click)="ordenarPor('correlativo')">Correlativo</th>
+          <th (click)="ordenarPor('fecha')">Fecha</th>
+          <th>Proveedor</th>
+          <th>Trabajador</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngFor="let i of ingresosFiltradosPaginados">
+          <tr>
+            <td>{{ i.serie }}</td>
+            <td>{{ i.correlativo }}</td>
+            <td>{{ i.fecha | date: 'yyyy-MM-dd' }}</td>
+            <td>{{ i.nombreProveedor }}</td>
+            <td>{{ i.nombreTrabajador }}</td>
+            <td>
+              <button class="btn btn-sm btn-info me-1" (click)="toggleDetallesIngreso(i.idIngreso)">
+                {{ filaExpandida === i.idIngreso ? 'Ocultar' : 'Ver' }} Detalles
+              </button>
+              <button class="btn btn-sm btn-warning me-1" (click)="editarIngreso(i)">Editar</button>
+              <button class="btn btn-sm btn-danger" (click)="eliminarIngreso(i.idIngreso)">Eliminar</button>
+            </td>
+          </tr>
+
+          <!-- Fila expandida con detalles -->
+          <tr *ngIf="filaExpandida === i.idIngreso">
+            <td colspan="6">
+              <div class="table-responsive mt-2">
+                <table class="table table-sm table-bordered text-center">
+                  <thead class="table-secondary">
+                    <tr>
+                      <th>Artículo</th>
+                      <th>Precio Compra</th>
+                      <th>Precio Venta</th>
+                      <th>Stock Inicial</th>
+                      <th>Stock Actual</th>
+                      <th>F. Producción</th>
+                      <th>F. Vencimiento</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let d of ingresoSeleccionadoConDetalles[i.idIngreso]">
+                      <td>{{ obtenerNombreArticulo(d.idArticulo) }}</td>
+                      <td>{{ d.precioCompra }}</td>
+                      <td>{{ d.precioVenta }}</td>
+                      <td>{{ d.stockInicial }}</td>
+                      <td>{{ d.stockActual }}</td>
+                      <td>{{ d.fechaProduccion | date: 'yyyy-MM-dd' }}</td>
+                      <td>{{ d.fechaVencimiento | date: 'yyyy-MM-dd' }}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </td>
+          </tr>
+        </ng-container>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Paginación -->
+  <div class="pagination mt-3" *ngIf="totalPaginas > 1">
+    <button [disabled]="paginaActual === 1" (click)="cambiarPagina(-1)">Anterior</button>
+    <button *ngFor="let p of [].constructor(totalPaginas); let i = index"
+            [disabled]="paginaActual === i + 1"
+            (click)="paginaActual = i + 1">
+      {{ i + 1 }}
+    </button>
+    <button [disabled]="paginaActual === totalPaginas" (click)="cambiarPagina(1)">Siguiente</button>
+  </div>
+
+  <!-- Botón para mostrar/ocultar formulario -->
+  <div class="text-end mt-3">
+    <button class="btn btn-primary" (click)="mostrarFormulario = !mostrarFormulario">
+      {{ mostrarFormulario ? 'Ocultar' : 'Nuevo Ingreso' }}
+    </button>
+  </div>
+
+  <!-- Formulario de ingreso -->
+  <form *ngIf="mostrarFormulario"
+        [formGroup]="form"
+        (ngSubmit)="submit()"
+        class="form-section mt-4">
+
+    <div class="form-header h5 mb-3">
+      {{ idIngresoEditando ? 'Editando ingreso' : 'Registrar nuevo ingreso' }}
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label>Proveedor</label>
+        <select formControlName="idProveedor" class="form-select">
+          <option [ngValue]="null">Seleccione</option>
+          <option *ngFor="let p of proveedores" [value]="p.idProveedor">{{ p.razonSocial }}</option>
+        </select>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label>Trabajador</label>
+        <select formControlName="idTrabajador" class="form-select">
+          <option [ngValue]="null">Seleccione</option>
+          <option *ngFor="let t of trabajadores" [value]="t.idTrabajador">{{ t.nombre }} {{ t.apellidos }}</option>
+        </select>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label>Fecha</label>
+        <input type="date" formControlName="fecha" class="form-control" />
+      </div>
+      <div class="col-md-3 mb-3">
+        <label>Tipo Comprobante</label>
+        <select formControlName="tipoComprobante" class="form-select">
+          <option value="Boleta">Boleta</option>
+          <option value="Factura">Factura</option>
+        </select>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label>Serie</label>
+        <input type="text" formControlName="serie" class="form-control" />
+      </div>
+      <div class="col-md-3 mb-3">
+        <label>Correlativo</label>
+        <input type="text" formControlName="correlativo" class="form-control" />
+      </div>
+      <div class="col-md-3 mb-3">
+        <label>IGV (%)</label>
+        <input type="number" formControlName="igv" class="form-control" />
+      </div>
+      <div class="col-md-3 mb-3">
+        <label>Estado</label>
+        <select formControlName="estado" class="form-select">
+          <option value="Aceptado">Aceptado</option>
+          <option value="Anulado">Anulado</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Tabla de detalles -->
+    <div class="detalle mt-3">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h6 class="mb-0">Detalles del Ingreso</h6>
+        <button type="button" class="btn btn-outline-success btn-sm" (click)="agregarDetalle()">+ Agregar Detalle</button>
+      </div>
+
+      <div class="table-responsive">
+        <table class="table table-sm table-bordered text-center">
+          <thead>
+            <tr>
+              <th>Artículo</th>
+              <th>Precio Compra</th>
+              <th>Precio Venta</th>
+              <th>Stock Inicial</th>
+              <th>Stock Actual</th>
+              <th>Producción</th>
+              <th>Vencimiento</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let d of detalles; let i = index">
+              <td>
+                <select [(ngModel)]="d.idArticulo" [ngModelOptions]="{standalone: true}" class="form-select">
+                  <option [ngValue]="0">Seleccione</option>
+                  <option *ngFor="let art of articulos" [value]="art.idArticulo">{{ art.nombre }}</option>
+                </select>
+              </td>
+              <td><input type="number" [(ngModel)]="d.precioCompra" class="form-control" [ngModelOptions]="{standalone: true}" /></td>
+              <td><input type="number" [(ngModel)]="d.precioVenta" class="form-control" [ngModelOptions]="{standalone: true}" /></td>
+              <td><input type="number" [(ngModel)]="d.stockInicial" class="form-control" [ngModelOptions]="{standalone: true}" /></td>
+              <td><input type="number" [(ngModel)]="d.stockActual" class="form-control" [ngModelOptions]="{standalone: true}" /></td>
+              <td><input type="date" [(ngModel)]="d.fechaProduccion" class="form-control" [ngModelOptions]="{standalone: true}" /></td>
+              <td><input type="date" [(ngModel)]="d.fechaVencimiento" class="form-control" [ngModelOptions]="{standalone: true}" /></td>
+              <td><button type="button" class="btn btn-danger btn-sm" (click)="eliminarDetalle(i)">X</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Botones -->
+    <div class="text-end mt-3">
+      <button type="submit" class="btn btn-primary">Guardar Ingreso</button>
+      <button type="button" class="btn btn-secondary ms-2" (click)="cancelar()">Cancelar</button>
+    </div>
+  </form>
+</div>

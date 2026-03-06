@@ -1,0 +1,99 @@
+<h2>Listado de Proveedores</h2>
+
+<!-- Filtro + selección de registros por página -->
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+  <input type="text" [(ngModel)]="filtro" placeholder="Buscar por cualquier campo..." style="width: 50%;" />
+
+  <div>
+    <label>Registros por página:</label>
+    <select [(ngModel)]="proveedoresPorPagina">
+      <option [value]="5">5</option>
+      <option [value]="10">10</option>
+      <option [value]="20">20</option>
+    </select>
+  </div>
+</div>
+
+<!-- Tabla de proveedores -->
+<table border="1" cellspacing="0" cellpadding="5" width="100%">
+  <thead>
+    <tr>
+      <th (click)="ordenarPor('idProveedor')">ID</th>
+      <th (click)="ordenarPor('razonSocial')">Razón Social</th>
+      <th (click)="ordenarPor('sectorComercial')">Sector Comercial</th>
+      <th (click)="ordenarPor('tipoDocumento')">Tipo Doc</th>
+      <th (click)="ordenarPor('numDocumento')">N° Doc</th>
+      <th (click)="ordenarPor('direccion')">Dirección</th>
+      <th (click)="ordenarPor('telefono')">Teléfono</th>
+      <th (click)="ordenarPor('email')">Email</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let proveedor of proveedoresPaginados">
+      <td>{{ proveedor.idProveedor }}</td>
+      <td>{{ proveedor.razonSocial }}</td>
+      <td>{{ proveedor.sectorComercial }}</td>
+      <td>{{ proveedor.tipoDocumento }}</td>
+      <td>{{ proveedor.numDocumento }}</td>
+      <td>{{ proveedor.direccion || '-' }}</td>
+      <td>{{ proveedor.telefono || '-' }}</td>
+      <td>{{ proveedor.email || '-' }}</td>
+      <td>
+        <button (click)="editar(proveedor)">Editar</button>
+        <button (click)="eliminar(proveedor.idProveedor)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Paginación -->
+<div style="margin-top: 1rem;">
+  <button (click)="cambiarPagina(-1)" [disabled]="paginaActual === 1">Anterior</button>
+ Página {{ paginaActual }} de {{ totalPaginas }}
+
+  <button (click)="cambiarPagina(1)" [disabled]="paginaActual >= totalPaginas"
+>Siguiente</button>
+</div>
+
+<hr />
+
+<!-- Botón para mostrar/ocultar formulario -->
+<button (click)="mostrarFormulario = !mostrarFormulario">
+  {{ mostrarFormulario ? 'Ocultar' : (editandoId === null ? 'Registrar Proveedor' : 'Editar Proveedor') }}
+</button>
+
+<!-- Formulario desplegable -->
+<div *ngIf="mostrarFormulario" style="margin-top: 1rem;">
+  <h2>{{ editandoId === null ? 'Registrar Proveedor' : 'Editar Proveedor' }}</h2>
+
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <label>Razón Social:</label>
+    <input type="text" formControlName="razonSocial" /><br />
+
+    <label>Sector Comercial:</label>
+    <input type="text" formControlName="sectorComercial" /><br />
+
+    <label>Tipo Documento:</label>
+    <select formControlName="tipoDocumento">
+      <option value="RUC">RUC</option>
+      <option value="DNI">DNI</option>
+      <option value="CI">CI</option>
+    </select><br />
+
+    <label>N° Documento:</label>
+    <input type="text" formControlName="numDocumento" /><br />
+
+    <label>Dirección:</label>
+    <input type="text" formControlName="direccion" /><br />
+
+    <label>Teléfono:</label>
+    <input type="text" formControlName="telefono" /><br />
+
+    <label>Email:</label>
+    <input type="email" formControlName="email" /><br />
+
+    <button type="submit">{{ editandoId === null ? 'Registrar' : 'Actualizar' }}</button>
+    <button type="button" (click)="cancelar()">Cancelar</button>
+  </form>
+</div>

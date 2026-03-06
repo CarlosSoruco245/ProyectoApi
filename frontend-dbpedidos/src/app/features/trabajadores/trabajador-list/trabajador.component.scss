@@ -1,0 +1,337 @@
+:root {
+  --primary-color: #4361ee;
+  --primary-hover: #3a56d4;
+  --secondary-color: #f8f9fa;
+  --text-color: #2b2d42;
+  --light-text: #6c757d;
+  --border-color: #dee2e6;
+  --hover-bg: #f1f3ff;
+  --success-color: #4bb543;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  color: var(--text-color);
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.title::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 2rem;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.toolbar input, 
+.toolbar select {
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  min-width: 180px;
+}
+
+.toolbar input:focus,
+.toolbar select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+}
+
+.toolbar input::placeholder {
+  color: var(--light-text);
+}
+
+.formulario {
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.formulario h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.formulario form {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  gap: 0.5rem;
+  color: var(--text-color);
+}
+
+.formulario input, 
+.formulario select {
+  padding: 0.65rem 1rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.formulario input:focus,
+.formulario select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.15);
+}
+
+.formulario button {
+  grid-column: span 2;
+  margin-top: 0.5rem;
+}
+
+/* Botones comunes */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.btn-sm {
+  padding: 0.3rem 0.7rem;
+  font-size: 0.85rem;
+}
+
+.btn-primary {
+  background-color: #4361ee !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 6px !important;
+}
+
+.btn-primary:hover {
+  background-color: #3a56d4 !important;
+  transform: translateY(-2px) !important;
+}
+
+.btn-danger {
+  background-color: #dc3545 !important;
+  color: white !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 6px !important;
+}
+
+.btn-danger:hover {
+  background-color: #c82333 !important;
+  transform: translateY(-2px) !important;
+}
+
+.btn-warning {
+  background-color: #ffc107 !important;
+  color: black !important;
+  border: none !important;
+  cursor: pointer !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 6px !important;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800 !important;
+  transform: translateY(-2px) !important;
+}
+
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.table-container {
+  overflow-x: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+thead {
+  background-color: var(--secondary-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+th {
+  padding: 1rem;
+  font-weight: 600;
+  text-align: left;
+  color: var(--text-color);
+  position: relative;
+  user-select: none;
+}
+
+th.sortable:hover {
+  background-color: var(--hover-bg);
+  cursor: pointer;
+}
+
+th.sortable::after {
+  content: '↕';
+  display: inline-block;
+  margin-left: 0.5rem;
+  opacity: 0.5;
+  font-size: 0.9rem;
+}
+
+th.sorted-asc::after {
+  content: '↑';
+  opacity: 1;
+}
+
+th.sorted-desc::after {
+  content: '↓';
+  opacity: 1;
+}
+
+td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover td {
+  background-color: var(--hover-bg);
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 0.5rem;
+}
+
+.pagination button {
+  padding: 0.6rem 1rem;
+  min-width: 40px;
+  background-color: white;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: var(--secondary-color);
+}
+
+.pagination button.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem;
+  color: var(--light-text);
+}
+
+.empty-state i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.empty-state p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .formulario form {
+    grid-template-columns: 1fr;
+  }
+  
+  .formulario button {
+    grid-column: span 1;
+  }
+  
+  .toolbar {
+    gap: 0.75rem;
+  }
+  
+  .toolbar input, 
+  .toolbar select {
+    min-width: 100%;
+  }
+}

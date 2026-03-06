@@ -1,0 +1,269 @@
+/* Variables de colores */
+$primary-color: #3f51b5;
+$secondary-color: #f5f5f5;
+$accent-color: #ff4081;
+$text-color: #333;
+$light-text: #777;
+$border-color: #e0e0e0;
+$error-color: #f44336;
+$success-color: #4caf50;
+
+/* Estilos generales */
+h2 {
+  color: $primary-color;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: $border-color;
+  margin: 1.5rem 0;
+}
+
+/* Contenedor de filtros y paginación */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  input[type="text"] {
+    flex: 1;
+    min-width: 250px;
+    padding: 0.75rem;
+    border: 1px solid $border-color;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border 0.3s;
+
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+      box-shadow: 0 0 0 2px rgba($primary-color, 0.1);
+    }
+  }
+
+  .records-per-page {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    label {
+      color: $light-text;
+      font-size: 0.9rem;
+    }
+
+    select {
+      padding: 0.5rem;
+      border: 1px solid $border-color;
+      border-radius: 4px;
+      background-color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+/* Tabla de proveedores */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+
+  thead {
+    background-color: $primary-color;
+    color: white;
+
+    th {
+      padding: 1rem;
+      text-align: left;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      position: relative;
+
+      &:hover {
+        background-color: darken($primary-color, 5%);
+      }
+
+      &::after {
+        content: '↕';
+        position: absolute;
+        right: 8px;
+        opacity: 0.6;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid $border-color;
+      transition: background-color 0.3s;
+
+      &:nth-child(even) {
+        background-color: lighten($secondary-color, 2%);
+      }
+
+      &:hover {
+        background-color: darken($secondary-color, 2%);
+      }
+
+      td {
+        padding: 1rem;
+        color: $text-color;
+
+        &:last-child {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+/* Botones */
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-right: 0.5rem;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  color: white;
+
+  &:hover:not(:disabled) {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.btn-accent {
+  background-color: $accent-color;
+  color: white;
+
+  &:hover:not(:disabled) {
+    background-color: darken($accent-color, 10%);
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary-color;
+  color: $text-color;
+
+  &:hover:not(:disabled) {
+    background-color: darken($secondary-color, 10%);
+  }
+}
+
+.btn-danger {
+  background-color: $error-color;
+  color: white;
+
+  &:hover:not(:disabled) {
+    background-color: darken($error-color, 10%);
+  }
+}
+
+/* Paginación */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+
+  .page-info {
+    color: $light-text;
+    font-size: 0.9rem;
+  }
+}
+
+/* Formulario */
+.form-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  form {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      label {
+        color: $light-text;
+        font-size: 0.9rem;
+      }
+
+      input, select {
+        padding: 0.75rem;
+        border: 1px solid $border-color;
+        border-radius: 4px;
+        font-size: 1rem;
+        transition: all 0.3s;
+
+        &:focus {
+          outline: none;
+          border-color: $primary-color;
+          box-shadow: 0 0 0 2px rgba($primary-color, 0.1);
+        }
+      }
+
+      .error-message {
+        color: $error-color;
+        font-size: 0.8rem;
+        margin-top: 0.25rem;
+      }
+    }
+
+    .form-actions {
+      grid-column: 1 / -1;
+      display: flex;
+      justify-content: flex-end;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: stretch;
+
+    input[type="text"] {
+      width: 100%;
+    }
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .form-container form {
+    grid-template-columns: 1fr;
+  }
+}

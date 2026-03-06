@@ -1,0 +1,151 @@
+CREATE DATABASE Dbpedidos;
+GO
+
+-- Usar la base de datos
+USE Dbpedidos;
+GO
+
+-- Crear tabla: categoria
+CREATE TABLE dbo.categoria (
+	idcategoria INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	nombre VARCHAR(50) NOT NULL,
+	descripcion VARCHAR(256) NULL
+);
+GO
+
+-- Crear tabla: presentacion
+CREATE TABLE dbo.presentacion (
+	idpresentacion INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	nombre VARCHAR(50) NOT NULL,
+	descripcion VARCHAR(256) NULL
+);
+GO
+
+-- Crear tabla: articulo
+CREATE TABLE dbo.articulo (
+	idarticulo INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	codigo VARCHAR(50) NOT NULL,
+	nombre VARCHAR(50) NOT NULL,
+	descripcion VARCHAR(1024) NULL,
+	imagen IMAGE NULL,
+	idcategoria INT NOT NULL,
+	idpresentacion INT NOT NULL,
+	CONSTRAINT FK_articulo_categoria FOREIGN KEY (idcategoria) REFERENCES dbo.categoria(idcategoria),
+	CONSTRAINT FK_articulo_presentacion FOREIGN KEY (idpresentacion) REFERENCES dbo.presentacion(idpresentacion)
+);
+GO
+
+-- Crear tabla: cliente
+CREATE TABLE dbo.cliente (
+	idcliente INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	nombre VARCHAR(50) NOT NULL,
+	apellidos VARCHAR(40) NULL,
+	sexo VARCHAR(1) NULL,
+	fecha_nacimiento DATE NULL,
+	tipo_documento VARCHAR(20) NOT NULL,
+	num_documento VARCHAR(11) NOT NULL,
+	direccion VARCHAR(100) NULL,
+	telefono VARCHAR(10) NULL,
+	email VARCHAR(50) NULL
+);
+GO
+
+-- Crear tabla: proveedor
+CREATE TABLE dbo.proveedor (
+	idproveedor INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	razon_social VARCHAR(150) NOT NULL,
+	sector_comercial VARCHAR(50) NOT NULL,
+	tipo_documento VARCHAR(20) NOT NULL,
+	num_documento VARCHAR(11) NOT NULL,
+	direccion VARCHAR(100) NULL,
+	telefono VARCHAR(10) NULL,
+	email VARCHAR(50) NULL,
+	url VARCHAR(100) NULL
+);
+GO
+
+-- Crear tabla: trabajador
+CREATE TABLE dbo.trabajador (
+	idtrabajador INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	nombre VARCHAR(20) NOT NULL,
+	apellidos VARCHAR(40) NOT NULL,
+	sexo VARCHAR(1) NOT NULL,
+	fecha_nac DATE NOT NULL,
+	num_documento VARCHAR(10) NOT NULL,
+	direccion VARCHAR(100) NULL,
+	telefono VARCHAR(10) NULL,
+	email VARCHAR(50) NULL,
+	acceso VARCHAR(20) NOT NULL,
+	usuario VARCHAR(20) NOT NULL,
+	password VARCHAR(20) NOT NULL
+);
+GO
+
+-- Crear tabla: ingreso
+CREATE TABLE dbo.ingreso (
+	idingreso INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	idtrabajador INT NOT NULL,
+	idproveedor INT NOT NULL,
+	fecha DATE NOT NULL,
+	tipo_comprobante VARCHAR(20) NOT NULL,
+	serie VARCHAR(10) NOT NULL,
+	correlativo VARCHAR(10) NOT NULL,
+	igv DECIMAL(4,2) NOT NULL,
+	estado VARCHAR(7) NOT NULL,
+	CONSTRAINT FK_ingreso_trabajador FOREIGN KEY (idtrabajador) REFERENCES dbo.trabajador(idtrabajador),
+	CONSTRAINT FK_ingreso_proveedor FOREIGN KEY (idproveedor) REFERENCES dbo.proveedor(idproveedor)
+);
+GO
+
+-- Crear tabla: detalle_ingreso
+CREATE TABLE dbo.detalle_ingreso (
+	iddetalle_ingreso INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	idingreso INT NOT NULL,
+	idarticulo INT NOT NULL,
+	precio_compra MONEY NOT NULL,
+	precio_venta MONEY NOT NULL,
+	stock_inicial INT NOT NULL,
+	stock_actual INT NOT NULL,
+	fecha_produccion DATE NOT NULL,
+	fecha_vencimiento DATE NOT NULL,
+	CONSTRAINT FK_detalle_ingreso_ingreso FOREIGN KEY (idingreso) REFERENCES dbo.ingreso(idingreso) ON DELETE CASCADE ON UPDATE CASCADE,
+	CONSTRAINT FK_detalle_ingreso_articulo FOREIGN KEY (idarticulo) REFERENCES dbo.articulo(idarticulo)
+);
+GO
+
+-- Crear tabla: venta
+CREATE TABLE dbo.venta (
+	idventa INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	idcliente INT NOT NULL,
+	idtrabajador INT NOT NULL,
+	fecha DATE NOT NULL,
+	tipo_comprobante VARCHAR(20) NOT NULL,
+	serie VARCHAR(10) NOT NULL,
+	correlativo VARCHAR(10) NOT NULL,
+	igv DECIMAL(4,2) NOT NULL,
+	CONSTRAINT FK_venta_cliente FOREIGN KEY (idcliente) REFERENCES dbo.cliente(idcliente),
+	CONSTRAINT FK_venta_trabajador FOREIGN KEY (idtrabajador) REFERENCES dbo.trabajador(idtrabajador)
+);
+GO
+
+-- Crear tabla: detalle_venta
+CREATE TABLE dbo.detalle_venta (
+	iddetalle_venta INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	idventa INT NOT NULL,
+	iddetalle_ingreso INT NOT NULL,
+	cantidad INT NOT NULL,
+	precio_venta MONEY NOT NULL,
+	descuento MONEY NOT NULL,
+	CONSTRAINT FK_detalle_venta_venta FOREIGN KEY (idventa) REFERENCES dbo.venta(idventa) ON DELETE CASCADE ON UPDATE CASCADE,
+	CONSTRAINT FK_detalle_venta_detalle_ingreso FOREIGN KEY (iddetalle_ingreso) REFERENCES dbo.detalle_ingreso(iddetalle_ingreso)
+);
+GO
+
+
+CREATE TABLE dbo.Users (
+	Id INT IDENTITY(1,1) PRIMARY KEY,
+	UserName VARCHAR(50) NOT NULL UNIQUE,
+	PasswordHash VARBINARY(MAX) NOT NULL,
+	PasswordSalt VARBINARY(MAX) NOT NULL
+);
+GO

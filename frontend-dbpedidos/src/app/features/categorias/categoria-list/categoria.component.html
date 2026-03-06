@@ -1,0 +1,64 @@
+<h2>Listado de Categorías</h2>
+
+<input
+  type="text"
+  [(ngModel)]="filtro"
+  placeholder="Buscar por nombre o descripción..."
+  class="filtro-input"
+/>
+
+<div class="registros-por-pagina">
+  <label for="registros">Mostrar:</label>
+  <select [(ngModel)]="categoriasPorPagina" id="registros">
+    <option *ngFor="let opcion of [5, 10, 25, 50]" [value]="opcion">{{ opcion }}</option>
+  </select>
+  registros
+</div>
+
+<table class="tabla-categorias" *ngIf="categorias.length && !cargando">
+  <thead>
+    <tr>
+      <th (click)="ordenarPor('idCategoria')">ID</th>
+      <th (click)="ordenarPor('nombre')">Nombre</th>
+      <th (click)="ordenarPor('descripcion')">Descripción</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let categoria of categoriasPaginadas">
+      <td>{{ categoria.idCategoria }}</td>
+      <td>{{ categoria.nombre }}</td>
+      <td>{{ categoria.descripcion }}</td>
+      <td>
+        <button (click)="editar(categoria)">Editar</button>
+        <button (click)="eliminar(categoria.idCategoria)">Eliminar</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="paginacion">
+  <button (click)="cambiarPagina(-1)" [disabled]="paginaActual === 1">Anterior</button>
+  Página {{ paginaActual }} de {{ totalPaginas }}
+  <button (click)="cambiarPagina(1)" [disabled]="paginaActual >= totalPaginas">Siguiente</button>
+</div>
+
+<hr />
+
+<button class="btn-verde" (click)="mostrarFormulario = !mostrarFormulario">
+  {{ mostrarFormulario ? 'Cancelar' : 'Registrar Categoría' }}
+</button>
+
+<form *ngIf="mostrarFormulario" [formGroup]="form" (ngSubmit)="submit()" class="formulario">
+  <label>
+    Nombre:
+    <input type="text" formControlName="nombre" />
+  </label>
+  <label>
+    Descripción:
+    <input type="text" formControlName="descripcion" />
+  </label>
+  <button type="submit" [disabled]="form.invalid">
+    {{ editandoId ? 'Actualizar' : 'Registrar' }}
+  </button>
+</form>

@@ -1,0 +1,999 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\presentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\presentacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\articuloscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\ventascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\ventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\detalleventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\detalleventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\ingresoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\ingresoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\ingresocondetallesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\ingresocondetallesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\detalleingresodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\detalleingresodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\trabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\trabajadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\trabajadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\trabajadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\clientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\detalleingresocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\detalleingresocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\presentacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\presentacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\controllers\\proveedorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\detalleingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\detalleingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\ingresodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\ingresodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\ventacondetallesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\ventacondetallesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\detalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\detalleventadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\proveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\proveedordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\proveedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\articulodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\articulocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\articulocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\presentaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\presentaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\dtos\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\idetalleingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\idetalleingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\idetalleventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\idetalleventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\itrabajadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\itrabajadorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\iproveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\iingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\iingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\iventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\iventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\proveedorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\detalleventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\detalleventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\detalleingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\detalleingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\ventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\ventarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|c:\\users\\csoru\\desktop\\proyecto\\pedidosapi\\pedidosapi\\repositories\\implementations\\ingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA7AD6A0-FD33-4631-99C7-C0A4FE49F6F9}|PedidosApi\\PedidosApi.csproj|solutionrelative:pedidosapi\\repositories\\implementations\\ingresorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentaDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\VentaDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\VentaDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\VentaDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\VentaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T02:46:48.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\appsettings.json",
+              "RelativeDocumentMoniker": "PedidosApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\appsettings.json",
+              "RelativeToolTip": "PedidosApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-22T22:58:55.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\CategoriasController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\CategoriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:08:13.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Presentacion.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Presentacion.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Presentacion.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Presentacion.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Presentacion.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:46:16.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArticulosController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\ArticulosController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\ArticulosController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\ArticulosController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\ArticulosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:14:45.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ingreso.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Ingreso.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Ingreso.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Ingreso.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Ingreso.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwCYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:51:05.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TrabajadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\TrabajadoresController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\TrabajadoresController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\TrabajadoresController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\TrabajadoresController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAiwGcAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:21:38.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:15:20.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VentasController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\VentasController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\VentasController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\VentasController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\VentasController.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAuwLwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:22:16.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IngresoConDetallesDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\IngresoConDetallesDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\IngresoConDetallesDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\IngresoConDetallesDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\IngresoConDetallesDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:19:36.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DetalleIngresoDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\DetalleIngresoDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\DetalleIngresoDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\DetalleIngresoDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\DetalleIngresoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T03:03:59.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IngresosController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\IngresosController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\IngresosController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\IngresosController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\IngresosController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:21:57.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DetalleVentaController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\DetalleVentaController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\DetalleVentaController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\DetalleVentaController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\DetalleVentaController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:27:12.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TrabajadorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\TrabajadorRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\TrabajadorRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\TrabajadorRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\TrabajadorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:40:19.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Services\\IAuthService.cs",
+              "RelativeToolTip": "PedidosApi\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:57:53.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Services\\AuthService.cs",
+              "RelativeToolTip": "PedidosApi\\Services\\AuthService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:58:30.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:06:02.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Trabajador.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Trabajador.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Trabajador.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Trabajador.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Trabajador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:50:45.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:27:28.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\User.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:52:10.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:05:16.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TrabajadorDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\TrabajadorDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\TrabajadorDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\TrabajadorDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\TrabajadorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:50:16.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Program.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Program.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Program.cs",
+              "RelativeToolTip": "PedidosApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:59:50.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PresentacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\PresentacionesController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\PresentacionesController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\PresentacionesController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\PresentacionesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:08:36.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClientesController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\ClientesController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\ClientesController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\ClientesController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\ClientesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:20:56.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DetalleIngresoController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\DetalleIngresoController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\DetalleIngresoController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\DetalleIngresoController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\DetalleIngresoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:26:52.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProveedoresController.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\ProveedoresController.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Controllers\\ProveedoresController.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Controllers\\ProveedoresController.cs",
+              "RelativeToolTip": "PedidosApi\\Controllers\\ProveedoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:21:17.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Venta.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Venta.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Venta.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Venta.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Venta.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwCUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:51:37.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DetalleIngreso.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\DetalleIngreso.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\DetalleIngreso.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\DetalleIngreso.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\DetalleIngreso.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:51:21.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VentaConDetallesDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\VentaConDetallesDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\VentaConDetallesDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\VentaConDetallesDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\VentaConDetallesDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T16:50:04.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IngresoDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\IngresoDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\IngresoDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\IngresoDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\IngresoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T22:36:01.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DetalleVenta.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\DetalleVenta.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\DetalleVenta.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\DetalleVenta.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\DetalleVenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:51:51.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DetalleVentaDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\DetalleVentaDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\DetalleVentaDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\DetalleVentaDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\DetalleVentaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T03:13:22.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\ClienteRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:01:01.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Cliente.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Cliente.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:49:57.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Proveedor.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Proveedor.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Proveedor.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Proveedor.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Proveedor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:50:29.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "PresentacionDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\PresentacionDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\PresentacionDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\PresentacionDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\PresentacionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:07:42.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Articulo.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Articulo.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Articulo.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Articulo.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvyMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:46:57.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Models\\Categoria.cs",
+              "RelativeToolTip": "PedidosApi\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T22:45:41.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProveedorDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ProveedorDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\ProveedorDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ProveedorDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\ProveedorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T22:00:17.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ArticuloCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ArticuloCreateDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\ArticuloCreateDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ArticuloCreateDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\ArticuloCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T02:18:04.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IArticuloRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IArticuloRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T23:02:45.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\ArticuloRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\ArticuloRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T23:03:08.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ClienteDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ClienteDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\ClienteDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ClienteDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\ClienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T21:25:22.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PedidosApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T23:00:08.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ArticuloDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ArticuloDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\ArticuloDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\ArticuloDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\ArticuloDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:03:24.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CategoriaDto.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\CategoriaDto.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\DTOs\\CategoriaDto.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\DTOs\\CategoriaDto.cs",
+              "RelativeToolTip": "PedidosApi\\DTOs\\CategoriaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T18:07:27.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IDetalleVentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IDetalleVentaRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IDetalleVentaRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IDetalleVentaRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IDetalleVentaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:41:30.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ITrabajadorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\ITrabajadorRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\ITrabajadorRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\ITrabajadorRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\ITrabajadorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:40:02.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IProveedorRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IProveedorRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IProveedorRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IProveedorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:01:17.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IDetalleIngresoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IDetalleIngresoRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IDetalleIngresoRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IDetalleIngresoRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IDetalleIngresoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:41:19.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IIngresoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IIngresoRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IIngresoRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IIngresoRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IIngresoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:40:53.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IVentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IVentaRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IVentaRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IVentaRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IVentaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:41:07.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\CategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:00:29.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\IClienteRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\IClienteRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:00:43.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProveedorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\ProveedorRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\ProveedorRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\ProveedorRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\ProveedorRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:01:40.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ICategoriaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Interfaces\\ICategoriaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:00:14.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DetalleIngresoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\DetalleIngresoRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\DetalleIngresoRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\DetalleIngresoRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\DetalleIngresoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:41:57.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DetalleVentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\DetalleVentaRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\DetalleVentaRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\DetalleVentaRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\DetalleVentaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:42:03.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "VentaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\VentaRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\VentaRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\VentaRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\VentaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:41:50.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IngresoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\IngresoRepository.cs",
+              "RelativeDocumentMoniker": "PedidosApi\\Repositories\\Implementations\\IngresoRepository.cs",
+              "ToolTip": "C:\\Users\\csoru\\Desktop\\proyecto\\PedidosApi\\PedidosApi\\Repositories\\Implementations\\IngresoRepository.cs",
+              "RelativeToolTip": "PedidosApi\\Repositories\\Implementations\\IngresoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:41:42.05Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

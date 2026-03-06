@@ -1,0 +1,125 @@
+/* Navbar Simple y Efectivo */
+.navbar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  padding: 15px 20px !important;
+  color: white !important;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.1) !important;
+  border: none !important;
+  margin: 0 !important;
+}
+
+.navbar-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+.navbar-logo a {
+  font-weight: bold !important;
+  font-size: 22px !important;
+  text-decoration: none !important;
+  color: white !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3) !important;
+}
+
+.navbar-links {
+  list-style: none !important;
+  display: flex !important;
+  gap: 5px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex-wrap: wrap !important;
+}
+
+.navbar-links li {
+  margin: 0 !important;
+}
+
+.navbar-links li a {
+  text-decoration: none !important;
+  color: rgba(255,255,255,0.9) !important;
+  padding: 8px 15px !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  transition: all 0.3s ease !important;
+  display: block !important;
+}
+
+.navbar-links li a:hover {
+  color: white !important;
+  background: rgba(255,255,255,0.15) !important;
+  transform: translateY(-1px) !important;
+}
+
+.navbar-links li a.active {
+  color: white !important;
+  background: rgba(255,255,255,0.2) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+}
+
+.logout-button {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a52 100%) !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 18px !important;
+  border-radius: 6px !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 8px rgba(255,107,107,0.3) !important;
+}
+
+.logout-button:hover {
+  background: linear-gradient(135deg, #ee5a52 0%, #d63031 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(255,107,107,0.4) !important;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  padding: 25px 0 !important;
+  text-align: center !important;
+  color: white !important;
+  font-size: 14px !important;
+  margin-top: 50px !important;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1) !important;
+}
+
+.footer-container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+}
+
+.footer p {
+  margin: 0 !important;
+  opacity: 0.9 !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+  
+  .navbar-links {
+    gap: 3px !important;
+    justify-content: center !important;
+  }
+  
+  .navbar-links li a {
+    padding: 6px 10px !important;
+    font-size: 13px !important;
+  }
+  
+  .logout-button {
+    padding: 8px 15px !important;
+    font-size: 13px !important;
+  }
+}
